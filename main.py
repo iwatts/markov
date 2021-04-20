@@ -7,7 +7,7 @@ def get_index(in_list,in_string):
 # We convert the script from the NLTK Stopwords tutorial into a def
 def clean_book(path):
     # Let's open the book we downloaded
-    book = open(path,'r').read()
+    book = open('/markov_text/','kjvBible.txt').read()
     # Divide text by rows
     rows = book.split('\n')
     # Search for START and END tags to remove useless parts
